@@ -7,7 +7,10 @@ function Header() {
   return (
     <header className="bg-[#FAFBFD] h-full lg:w-[237px] py-5 px-3 lg:px-10 flex flex-col gap-48 shadow-md">
       <h1 className="text-[#090F31] font-poppins font-semibold text-xs md:text-base">
-        <span className="text-[#F7542E]">Dev</span>challenges.io
+        <Link to="/">
+          <span className="text-[#F7542E]">Dev</span>challenges.io
+        </Link>
+        
       </h1>
 
       <nav>

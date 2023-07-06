@@ -14,6 +14,7 @@ function App() {
 
         <section>
           <Routes>
+            <Route path="/" element={<InputPage />} />
             <Route path="/buttons" element={<ButtonPage />} />
             <Route path="/inputs" element={<InputPage />} />
             <Route path="/soon" element={<PageSoon />} />
@@ -21,7 +22,7 @@ function App() {
         </section>
       </div>
     </BrowserRouter>
-  )
+  );
 }
 
-export default App
+export default App;
